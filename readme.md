@@ -8,7 +8,7 @@ where $y(t)$ is the observed value at time $t$ deriving from several additive co
   <img src="https://user-images.githubusercontent.com/55145311/232958164-64ff849f-6480-4420-a749-47ddafceac61.png" alt="Predictions" width="700"/> 
 </p>
 
-We make it easy to modify the parameters of the simulation, and to observe the effect on the time series generated and forecasts produced by Prophet. We briefly describe these parameters here, which fall into four main categories:
+We make it easy to modify the parameters of the simulation, and to observe the effect on the time series generated and forecasts produced by Prophet. We briefly describe these parameters here, which fall into three main categories:
 
 
 **Growth parameters controlling $g(t)$**:
