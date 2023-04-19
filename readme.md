@@ -4,6 +4,8 @@ $$y(t) = g(t) + s(t) + h(t) + \epsilon_t, \quad t \in [T]$$
 
 where $y(t)$ is the observed value at time $t$ deriving from several additive components: $g(t)$ represents the trend or growth component of the process, $s(t)$ represents the seasonal component, $h(t)$ represents the effect of holidays, and $\epsilon_t$ is a noise term. 
 
+![Predictions](https://user-images.githubusercontent.com/55145311/232958164-64ff849f-6480-4420-a749-47ddafceac61.png)
+
 We make it easy to modify the parameters of the simulation, and to observe the effect on the time series generated and forecasts produced by Prophet. We briefly describe these parameters here, which fall into four main categories:
 
 
