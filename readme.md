@@ -1,4 +1,4 @@
-This repo is a flexible simulation of the Prophet process; that is, a time series following exactly the properties of a correctly specified [Facebook Prophet model](https://facebook.github.io/prophet/). In short, a Prophet process of length $T$ can be expressed as follows:
+This repo is a **flexible simulation of the Prophet process**; that is, a time series following exactly the properties of a correctly specified [Facebook Prophet model](https://facebook.github.io/prophet/). In short, a Prophet process of length $T$ can be expressed as follows:
 
 $$y(t) = g(t) + s(t) + h(t) + \epsilon_t, \quad t \in [T]$$
 
