@@ -15,7 +15,7 @@ We make it easy to modify the parameters of the simulation, and to observe the e
 - $C(t)$: the asssumed "carrying capacity"; effectively the assumed maximum $g(t)$ that the simulation can reach, as is often assumed in a logistic growth model.
 - $k$: the trend of the underlying growth rate. Higher $k$ means the series will trend upwards more and be less affected by change-points.
 - $\tau$: scale of the Laplace prior on the change-points $\delta_j \sim \text{Laplace}(0, \tau)$. Higher $\tau$ means the change-points will on average have a larger magnitude.
-- $m$: the offset parameter determining where the mid-point in the growth curve should occur. A very large $m > T$ will mean the simulation never reaches its carrying capacity.
+- $m$: the offset parameter determining at what time the mid-point in the growth towards the carrying capacity should occur. A very large $m > T$ will mean the simulation never reaches its carrying capacity.
 - $\bar{S}$: the change-point frequency. Can alternatively be calculated from the number of changepoints (referred to as $S$ in the Prophet paper).
 
 **Seasonality parameters controlling $s(t)$**:
